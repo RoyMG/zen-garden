@@ -1,0 +1,135 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Great+Vibes|Merienda+One');
+body{
+	background-image: url(images/bg-wood2.jpg);
+	font-family: 'Merienda One', cursive;
+	color: #2f2f2f;
+}
+/*Headings*/
+h1, h2, h3 {
+	font-family: 'Great Vibes', cursive;
+}
+h3{
+	text-align: center;
+	font-size: 2em;
+}
+/*Anchor*/
+a{
+	color: #8A0707; /*blood red*/
+}
+/*Classes*/
+/*Wrapper*/
+.page-wrapper{
+	width: 960px;
+	margin: auto;
+	padding: 10px 40px;
+	background-image: url(images/bg-paper2.jpg);
+}
+/*Titles*/
+.intro h1{
+	font-size: 4.5em;
+	padding-left: 70px;
+	letter-spacing: 14px;
+}
+.intro h2{
+	font-size: 2.5em;
+	text-align: right;
+}
+/*1 paragraph*/
+.main{
+	background-image: url(images/line2.png);
+	background-repeat: no-repeat;
+	background-position: 175px 0px;
+	padding-top: 40px;
+}
+.preamble{
+	background-image: url(images/ink1-2.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	-webkit-background-size: 8%;
+	background-size: 8%;
+	margin-right: 80px;
+}
+.preamble p{
+	width: 80%;
+	padding-left: 20px;
+}
+/*2 paragraph*/
+.explanation p:nth-child(2){
+	padding-left: 20px;
+}
+.explanation p:nth-child(3){
+	padding-left: 40px;
+}
+/*3 paragraph left*/
+.participation{
+	float: left;
+	width: 60%;
+	margin-right: 10%;
+	padding-left: 5%;
+}
+/*3 paragraph right*/
+.benefits{
+	float: left;
+	width: 20%;
+	padding-right: 5%;
+}
+/*4 paragraph*/
+.requirements{
+	clear: both;
+	background-image: url(images/ink2-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 30%;
+	background-size: 30%;
+	background-position: left center ;
+	padding-left: 35px;
+}
+.requirements p:nth-child(3){
+	padding-left: 200px;
+}
+/*Footer*/
+footer{
+	text-align: center;
+}
+/*Designs*/
+.sidebar{
+	background-image: url(images/line2.png);
+	background-repeat: no-repeat;
+	background-position: 175px 10px;
+	padding-top: 50px;
+}
+.design-selection{
+	text-align: center;
+}
+.design-selection ul{
+	    padding: 0;
+	    list-style-type: none;	
+}
+.design-selection li{
+	display: inline;
+	padding-right: 30px;
+}
+/*Archives*/
+.design-archives{
+	text-align: center;
+}
+.design-archives ul{
+	    padding: 0;
+	    list-style-type: none;	
+}
+.design-archives li{
+	display: inline;
+	padding-right: 30px;
+}
+/*Resources*/
+.zen-resources{
+	text-align: center;
+}
+.zen-resources ul{
+	    padding: 0;
+	    list-style-type: none;	
+}
+.zen-resources li{
+	display: inline;
+	padding-right: 30px;
+}
